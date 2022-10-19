@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.item::after {
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.item:first-child {
+  font-weight: bold;
+  cursor: default;
+}
+
+.item:first-child:hover {
+  background-color: #333333;
+}
+
+.item:last-child::after {
+  display: none;
+}
+
+.item:hover {
+  background-color: #535353;
+}

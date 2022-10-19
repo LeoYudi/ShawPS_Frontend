@@ -1,0 +1,15 @@
+.line {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.label {
+  width: 40%;
+  text-align: end;
+  font-weight: bold;
+}
+
+.value {
+  width: 60%;
+}

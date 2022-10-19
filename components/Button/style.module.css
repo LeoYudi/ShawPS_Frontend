@@ -1,0 +1,27 @@
+.button {
+  padding: 10px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+.button:hover {
+  background-color: #c9c9c9;
+}
+
+.secondary {
+  background-color: #252525;
+  color: white;
+  border-color: white;
+}
+
+.secondary:hover {
+  background-color: #363636;
+}
+
+.disable {
+  cursor: not-allowed;
+}
